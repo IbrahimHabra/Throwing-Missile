@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Point3D?>
+<?import javafx.scene.canvas.Canvas?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <Canvas fx:id="canvas" height="400.0" rotate="180.0" width="600.0">
+      <rotationAxis>
+         <Point3D x="1.0" />
+      </rotationAxis>
+   </Canvas>
+   <Slider fx:id="speed" layoutX="547.0" layoutY="14.0" orientation="VERTICAL" prefHeight="371.0" prefWidth="41.0" showTickLabels="true" showTickMarks="true" />
+   <Slider fx:id="degrees" layoutX="506.0" layoutY="14.0" max="359.0" orientation="VERTICAL" prefHeight="371.0" prefWidth="41.0" showTickLabels="true" showTickMarks="true" />
+   <Slider fx:id="screenWide" layoutX="471.0" layoutY="14.0" max="50.0" orientation="VERTICAL" prefHeight="371.0" prefWidth="35.0" showTickLabels="true" showTickMarks="true" />
+   <Label layoutX="194.0" layoutY="137.0" prefHeight="125.0" prefWidth="212.0" text="Yamen challenged me to do this" textAlignment="CENTER" textFill="#64217c" wrapText="true">
+      <font>
+         <Font name="Segoe UI" size="28.0" />
+      </font>
+   </Label>
+</AnchorPane>
